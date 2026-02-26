@@ -5,7 +5,7 @@
 #ifndef PLAYER_K_COLORS_H
 #define PLAYER_K_COLORS_H
 
-// 8-bit background colors
+// 3 bit / 4 bit background colors
 const char* SILVER_ANSI_COLOR =             "\033[7m";
 const char* BLACK_ANSI_COLOR =              "\033[40m";
 const char* RED_ANSI_COLOR =                "\033[41m";
