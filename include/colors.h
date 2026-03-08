@@ -2,8 +2,8 @@
 // Created by zero on 2/19/26.
 //
 
-#ifndef PLAYER_K_COLORS_H
-#define PLAYER_K_COLORS_H
+#ifndef V_ANSI_COLORS_H
+#define V_ANSI_COLORS_H
 
 // 3 bit / 4 bit background colors
 const char* SILVER_ANSI_COLOR =             "\033[7m";
@@ -25,4 +25,4 @@ const char* BRIGHT_CYAN_ANSI_COLOR =        "\033[106m";
 const char* WHITE_ANSI_COLOR =              "\033[107m";
 const char* RESET_COLOR =                   "\033[0m";
 
-#endif //PLAYER_K_COLORS_H
+#endif //V_ANSI_COLORS_H

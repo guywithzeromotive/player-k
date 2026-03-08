@@ -1,9 +1,9 @@
-#include <ffmpeg/libavutil/log.h>
-#include <ffmpeg/libavformat/avformat.h>
+#include <stdio.h>
 
+#include "../include/utils.h"
 int main() {
-    av_log_set_level(AV_LOG_INFO);
-    avformat_network_init();
-    printf("Complete");
+
+    Window_Dimensions dimensions = get_tty_dimensions();
+    printf("width : %d , height : %d\n\n" , dimensions.tty_width , dimensions.tty_height);
     return 0;
 }
